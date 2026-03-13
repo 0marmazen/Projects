@@ -8,12 +8,7 @@
   <h3 align="center">
  Creating a standalone and pocket-sized pentesting device for on-the-go ethical hacking procedures. <br><br>
   <a href="#">
-    <img src="https://awesome.re/badge.svg" alt="Awesome" height=24>
-    <img src="https://img.shields.io/badge/Powered%20by-Raspberry%20Pi-c01355" alt="Powered by Raspberry Pi" height=24>
-    <img src="https://img.shields.io/badge/Developed%20by-Shlucus-brightgreen" alt="Developed by Shlucus" height=24 title="Developer of this project">
-    <img src="https://img.shields.io/badge/Hack-The%20Planet-orange" alt="Hack the planet" height=24>
-    <img src="https://img.shields.io/badge/Version-1.1-lightblue" alt="Version 1.1" height=24>
-  </a>
+   
 
 
 </h3>
