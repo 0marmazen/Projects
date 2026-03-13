@@ -1,7 +1,6 @@
 # RootMe — TryHackMe Walkthrough
 
-**Difficulty:** Easy
-
+![cover](../assets/rootme/2.png)
 **Room:** RootMe (TryHackMe)
 
 **Objective:** Gain initial access → privilege escalate to root → capture flags
@@ -185,3 +184,4 @@ This machine is a perfect example of:
 * Weak file validation
 * Dangerous SUID configurations
 * How small misconfigurations can lead to full system compromise
+![footer](../assets/rootme/1.png)
