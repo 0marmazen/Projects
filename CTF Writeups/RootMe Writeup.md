@@ -125,6 +125,9 @@ Common location reported by all write-ups:
 Read it:
 
 ```bash
+**************************************************
+                    User Flag
+**************************************************
 cat /var/www/user.txt
 THM{y0u_g0t_a_sh3ll}
 ```
@@ -160,6 +163,9 @@ This opens a **root shell**.
 ###  5.3 Root Flag
 
 ```bash
+**************************************************
+                    Root Flag
+**************************************************
 cat /root/root.txt
 THM{pr1v1l3g3_3sc4l4t10n}
 ```
@@ -184,4 +190,3 @@ This machine is a perfect example of:
 * Weak file validation
 * Dangerous SUID configurations
 * How small misconfigurations can lead to full system compromise
-![footer](../assets/rootme/1.png)
