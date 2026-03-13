@@ -2,7 +2,7 @@
  <div align="center">
   <hr>
   
-  ![Banner](../assets/network-tool/Overview.png)
+  ![Banner](../assets/nt/Overview.png)
   
   <hr>
   <h3 align="center">
@@ -27,7 +27,7 @@
 This project transforms a Raspberry Pi into a portable penetration testing device, combining the versatility of Kali Linux with the compact form factor of the Raspberry Pi. It enables security professionals and enthusiasts to tactically conduct mobile pentesting and ethical hacking activities on-the-go. Inspired by the [Pwnagotchi Project](https://pwnagotchi.ai/), my goal was to create my own pocket-sized pentesting or 'pwning' device but offering the same tools and capabilities of a complete linux desktop. Not only does it allow mobile pentesting, but also remote attacks thanks to Secure Shell (SSH) and it's small size, allowing you to easily plant the device in a target organization and monitor network traffic by running commands from anywhere in the world. 
 <br>
 
-  ![Banner](../assets/network-tool/Overview.png)
+  ![Banner](../assets/nt/Overview.png)
   
 ## ✨ Features
 - <ins>Raspberry Pi Integration</ins>: Utilizes the Raspberry Pi for its compact size and portability.
@@ -41,11 +41,11 @@ This project transforms a Raspberry Pi into a portable penetration testing devic
 
 | Component         | Purchase Link                                                                                               | Image                                                                                                                                                      |
 |-------------------|-------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Board             | [Raspberry Pi 4 Model B (8GB)](https://www.amazon.ca/Raspberry-Pi-Model-Bluetooth-Enabled/dp/B09TTKT94J/ref=sr_1_11?keywords=Raspberry+pi+4&sr=8-11&ufe=app_do%3Aamzn1.fos.b06bdbbe-20fd-4ebc-88cf-fa04f1ca0da8) |   <img src="https://github.com/0marmazen/Projects-Writeups/blob/c8bcd4ddf50b122b30d625d8d0310a0d0de49122/assets/network-tool/Component1.png" alt="Board" width="350">                     |
-| Display           | [Waveshare 3.5inch Touch Screen RPi LCD (C)](https://www.waveshare.com/3.5inch-rpi-lcd-c.htm)             |   <img src="https://github.com/0marmazen/Projects-Writeups/blob/c8bcd4ddf50b122b30d625d8d0310a0d0de49122/assets/network-tool/Component2.png" alt="Display (Top)" width="250"> |
-| Battery           | [PiSugar S Plus](https://www.tindie.com/products/pisugar/pisugar-s-plus-battery-for-raspberry-pi-3b3b4b/) |   <img src="https://github.com/0marmazen/Projects-Writeups/assets/network-tool/Component2.png" alt="Battery" width="300">                      |
-| Network Adapter   | [ALPHA AWUS036ACS](https://www.amazon.ca/ALFA-NETWORK-AWUS036ACS-Alfa-Adapter/dp/B0752CTSGD/ref=sr_1_2?keywords=ALPHA+AWUS036ACS&sr=8-2) |   <img src="https://github.com/0marmazen/Projects-Writeups/blob/c8bcd4ddf50b122b30d625d8d0310a0d0de49122/assets/network-tool/Component3.png" alt="ALPHA Adapter" width="250">                     |
-| Heatsink (optional) | [Aluminum Alloy Cooling Case by WEIYIXING](https://www.amazon.ca/dp/B0BBPPYV76?ref=ppx_yo2ov_dt_b_product_details&th=1)      |    <img src="https://github.com/0marmazen/Projects-Writeups/blob/c8bcd4ddf50b122b30d625d8d0310a0d0de49122/assets/network-tool/Component4.png" alt="Heatsink" width="250">                             |
+| Board             | [Raspberry Pi 4 Model B (8GB)](https://www.amazon.ca/Raspberry-Pi-Model-Bluetooth-Enabled/dp/B09TTKT94J/ref=sr_1_11?keywords=Raspberry+pi+4&sr=8-11&ufe=app_do%3Aamzn1.fos.b06bdbbe-20fd-4ebc-88cf-fa04f1ca0da8) |   <img src="https://github.com/0marmazen/Projects-Writeups/blob/c8bcd4ddf50b122b30d625d8d0310a0d0de49122/assets/nt/Component1.png" alt="Board" width="350">                     |
+| Display           | [Waveshare 3.5inch Touch Screen RPi LCD (C)](https://www.waveshare.com/3.5inch-rpi-lcd-c.htm)             |   <img src="https://github.com/0marmazen/Projects-Writeups/blob/c8bcd4ddf50b122b30d625d8d0310a0d0de49122/assets/nt/Component2.png" alt="Display (Top)" width="250"> |
+| Battery           | [PiSugar S Plus](https://www.tindie.com/products/pisugar/pisugar-s-plus-battery-for-raspberry-pi-3b3b4b/) |   <img src="https://github.com/0marmazen/Projects-Writeups/assets/nt/Component2.png" alt="Battery" width="300">                      |
+| Network Adapter   | [ALPHA AWUS036ACS](https://www.amazon.ca/ALFA-NETWORK-AWUS036ACS-Alfa-Adapter/dp/B0752CTSGD/ref=sr_1_2?keywords=ALPHA+AWUS036ACS&sr=8-2) |   <img src="https://github.com/0marmazen/Projects-Writeups/blob/c8bcd4ddf50b122b30d625d8d0310a0d0de49122/assets/nt/Component3.png" alt="ALPHA Adapter" width="250">                     |
+| Heatsink (optional) | [Aluminum Alloy Cooling Case by WEIYIXING](https://www.amazon.ca/dp/B0BBPPYV76?ref=ppx_yo2ov_dt_b_product_details&th=1)      |    <img src="https://github.com/0marmazen/Projects-Writeups/blob/c8bcd4ddf50b122b30d625d8d0310a0d0de49122/assets/nt/Component4.png" alt="Heatsink" width="250">                             |
 
 
 ##  🗺️ Guide
@@ -62,7 +62,7 @@ Make sure you have:
 - b) Operating System > Use Custom > *Kali Linux ARM Image*
 - c) Grade 10 MicroSD with 16Gb or above.
 
-![Os-setup](../assets/network-tool/os.png)
+![Os-setup](../assets/nt/os.png)
 
 ### Step 2: Installing LCD Display
 
@@ -71,9 +71,9 @@ Due to the Waveshare screen's simple design, installing it is as easy as pluggin
 > [!TIP]
 > If using the Heatsink mentioned in the 'Components' section, the aluminum will interfere with the screen's own components on the underside. This will prevent the screen from sitting flush against the device.  To fix this, you can either alter the heatsink directly by reducing its surface, or like I did, make supports on the corners of the screen between the heatsink with adhesive putty. (Ensures stability and keep  the screen glued to the device)
 
-![screen-setup](../assets/network-tool/screen1.jpg)
-![screen-setup](../assets/network-tool/screen2.jpg)
-![screen-setup](../assets/network-tool/screen3.jpg)
+![screen-setup](../assets/nt/screen1.jpg)
+![screen-setup](../assets/nt/screen2.jpg)
+![screen-setup](../assets/nt/screen3.jpg)
 Once the MicroSD is inserted and Screen is connected, you will notice powering ON the Pi that the screen will remain white (this is normal). We have yet to install the drivers for the Pi to communicate with it
 
 >[!NOTE]  
@@ -100,11 +100,11 @@ Then, take the four M2.5 screws provided from the PiSugar S Plus and screw it in
 > [!NOTE]  
 > If using Heatsink, use the case's/heatsink's M2.5 screws INSTEAD, since they are longer and will allow to screw in both the battery and Heatsink at the same time.
 
-![Battery](../assets/network-tool/Battery1.jpg)
+![Battery](../assets/nt/Battery1.jpg)
 
 The way this possible is thanks to the Pogo Pins on the PiSugar that allows access to the GPIO pins from the underside of the Pi! So make sure the pogo pins are properly in contact with the GPIO pins.
 
-![Battery](../assets/network-tool/Battery2.jpg)
+![Battery](../assets/nt/Battery2.jpg)
 
 I strongly suggest watching this Youtube video for help with the installation -> [Pi Sugar S Plus Review](https://youtu.be/HUL5Ii0dD7E?si=tGOrOx8UDh8VqgeL)
 
